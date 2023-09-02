@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .main-container{
+            display:grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap:8px;
+            height:640px;
+        }
+
+        .container{
+            display:grid;
+            background-color: white;
+            grid-gap:8px;
+        }
+        .items{
+            background-color: rgb(194, 236, 190);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+    <div class="container">
+       <div class="items">1</div>
+       </div>
+
+       <div class="container">
+       <div class="items">2</div>
+       <div class="items">3</div>
+    </div>
+
+    <div class="container">
+       <div class="items">4</div>
+       <div class="items">5</div>
+       <div class="items">6</div>
+    </div>
+
+    <div class="container">
+       <div class="items">7</div>
+       <div class="items">8</div>
+       <div class="items">9</div>
+       <div class="items">10</div>
+       </div>
+
+       <div class="container">
+       <div class="items">11</div>
+       <div class="items">12</div>
+       <div class="items">13</div>
+       <div class="items">14</div>
+       <div class="items">15</div>
+       <div class="items">16</div>
+    </div>
+    <div class="container">
+       <div class="items">17</div>
+       <div class="items">18</div>
+       <div class="items">19</div>
+       <div class="items">20</div>
+       <div class="items">21</div>
+       <div class="items">22</div>
+       <div class="items">23</div>
+       <div class="items">24</div>
+       <div class="items">25</div>
+       <div class="items">26</div>
+       <div class="items">27</div>
+       <div class="items">28</div>
+    </div>
+</div>
+</body>
+</html>
